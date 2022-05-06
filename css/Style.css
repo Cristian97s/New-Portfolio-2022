@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing:  border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.path-0{
+    animation:pathAnim-0 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pathAnim-0{
+    0%{
+        d: path("M 0,400 C 0,400 0,200 0,200 C 148.2666666666667,208.13333333333333 296.5333333333334,216.26666666666665 468,224 C 639.4666666666666,231.73333333333335 834.1333333333334,239.0666666666667 1000,235 C 1165.8666666666666,230.9333333333333 1302.9333333333334,215.46666666666664 1440,200 C 1440,200 1440,400 1440,400 Z");
+    }
+    25%{
+        d: path("M 0,400 C 0,400 0,200 0,200 C 124.80000000000001,177.60000000000002 249.60000000000002,155.20000000000002 425,151 C 600.4,146.79999999999998 826.4000000000001,160.79999999999998 1004,172 C 1181.6,183.20000000000002 1310.8,191.60000000000002 1440,200 C 1440,200 1440,400 1440,400 Z");
+    }
+    50%{
+        d: path("M 0,400 C 0,400 0,200 0,200 C 171.33333333333331,206.66666666666669 342.66666666666663,213.33333333333334 500,213 C 657.3333333333334,212.66666666666666 800.6666666666667,205.33333333333331 955,202 C 1109.3333333333333,198.66666666666669 1274.6666666666665,199.33333333333334 1440,200 C 1440,200 1440,400 1440,400 Z");
+    }
+    75%{
+        d: path("M 0,400 C 0,400 0,200 0,200 C 187.59999999999997,177.73333333333335 375.19999999999993,155.46666666666667 547,175 C 718.8000000000001,194.53333333333333 874.8,255.86666666666667 1021,267 C 1167.2,278.1333333333333 1303.6,239.06666666666666 1440,200 C 1440,200 1440,400 1440,400 Z");
+    }
+    100%{
+        d: path("M 0,400 C 0,400 0,200 0,200 C 148.2666666666667,208.13333333333333 296.5333333333334,216.26666666666665 468,224 C 639.4666666666666,231.73333333333335 834.1333333333334,239.0666666666667 1000,235 C 1165.8666666666666,230.9333333333333 1302.9333333333334,215.46666666666664 1440,200 C 1440,200 1440,400 1440,400 Z");
+    }
+}
+
+.navbar{
+    background-color: #0099ff;
+}
+
+.font-blanco{
+    color: rgb(255, 255, 255);
+}
+
+#font-blanco{
+    color: rgb(255, 255, 255);
+}
+
+.color-blue{
+    background-color: #0099ff;
+}
+
+.color-blanco{
+    color: #fff;
+    padding-top: 3%;
+}
+
+.btn-primary:hover{
+    background: #fff;
+    color: #1f1f38;
+    border-color: transparent;
+}
+
+.btn-primary{
+    background: #4db5ff;
+    color: #1f1f38;
+}
+
+.color-svg{
+    background-color: #1f1f38;
+}
+
+.medidas{
+    width: 25%;
+}
+
+/*TARJETAS DE EXPERIENCIA*/
+
+.text-experience{
+    text-align: center;
+}
+
+.expe-cards{
+    padding-top: 1rem;
+}
+
+/* .experience__content{
+    border: 1px solid #4db5ff;
+    border-radius: 2rem;
+} */
+
+.border-div{
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    color: #0099ff;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0,212,255,0.4);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,212,255,0.4);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,212,255,0.4);
+}
+
+.border-div:hover{
+    border: 1.5px solid #C1CED7;
+    color: #fff;
+    background-color: #000;
+}
+
+.border-div .fa-brands{
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+}
