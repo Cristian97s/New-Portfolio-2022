@@ -7,7 +7,18 @@
     list-style: none;
     text-decoration: none;
 }
-
+/*scroll*/
+body::-webkit-scrollbar{
+    width: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(5,105,133);
+    border-radius: 50px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background: rgb(4, 73, 92);
+}
+/*diseño de las olas y animacion*/
 .path-0{
     animation:pathAnim-0 4s;
     animation-timing-function: linear;
