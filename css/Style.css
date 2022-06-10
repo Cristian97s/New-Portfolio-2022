@@ -33,7 +33,17 @@
 }
 
 .navbar{
-    background-color: #0099ff;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.img-avatar{
+    border-radius: 1.5rem;
+    padding: 0.25rem;
+    /* background-color: #fff;
+    border: 1px solid #dee2e6; */
+    max-width: 100%;
+    height: auto;
 }
 
 .font-blanco{
@@ -45,7 +55,8 @@
 }
 
 .color-blue{
-    background-color: #0099ff;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .color-blanco{
@@ -106,4 +117,45 @@
 .border-div .fa-brands{
     font-size: 2.5rem;
     margin-top: 0.5rem;
+}
+
+/*PORTFOLIO*/
+.container-portfolio{
+    background-color: #1f1f38;
+}
+
+.portfolio-item{
+    background: #2c2c6c;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid;
+    margin-top: 1.5rem;
+}
+
+.portfolio-item h3{
+    color: #fff;
+}
+
+.portfolio-item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio-item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img-portfolio {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    /* max-width: 100%;
+    height: auto; */
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
