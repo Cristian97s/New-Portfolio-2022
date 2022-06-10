@@ -96,31 +96,29 @@ a.nav-blanco:hover{
     height: auto;
 }
 
+/*about me estilos*/
 .about-me{
     background-color: #1f1f38;
     color: #fff;
     font-size: 1.25rem;
 }
 
+/*cuentar el div col-6 dek about me*/
+.centrado{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*boton del about me*/
+.btn-primary{
+    background: #4db5ff;
+    color: #1f1f38;
+}
 .btn-primary:hover{
     background: #fff;
     color: #1f1f38;
     border-color: transparent;
 }
-
-.btn-primary{
-    background: #4db5ff;
-    color: #1f1f38;
-}
-
-.color-svg{
-    background-color: #1f1f38;
-}
-
-.medidas{
-    width: 25%;
-}
-
 /*TARJETAS DE EXPERIENCIA*/
 
 .text-experience{
