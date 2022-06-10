@@ -1,3 +1,4 @@
+/*Quitando los por defecto de los nevegadores*/
 *{
     margin: 0;
     padding: 0;
@@ -7,24 +8,30 @@
     list-style: none;
     text-decoration: none;
 }
+body{
+    background: #F2F2F2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
 /*scroll*/
 body::-webkit-scrollbar{
-    width: 7px;
+    width: 0.4375rem;
 }
 body::-webkit-scrollbar-thumb{
     background: rgb(5,105,133);
-    border-radius: 50px;
+    border-radius: 10px;
 }
 body::-webkit-scrollbar-thumb:hover{
     background: rgb(4, 73, 92);
 }
+
 /*diseño de las olas y animacion*/
 .path-0{
     animation:pathAnim-0 4s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-
 @keyframes pathAnim-0{
     0%{
         d: path("M 0,400 C 0,400 0,200 0,200 C 148.2666666666667,208.13333333333333 296.5333333333334,216.26666666666665 468,224 C 639.4666666666666,231.73333333333335 834.1333333333334,239.0666666666667 1000,235 C 1165.8666666666666,230.9333333333333 1302.9333333333334,215.46666666666664 1440,200 C 1440,200 1440,400 1440,400 Z");
@@ -43,11 +50,43 @@ body::-webkit-scrollbar-thumb:hover{
     }
 }
 
-.navbar{
+/*Degradado*/
+.degradado-azul{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
+/*logo*/
+.logo{
+    color: #FFF;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 1.875rem;
+}
+
+/*Navegadores*/
+.nav-blanco {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #FFF;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+a.nav-blanco:hover{
+    color: #000;
+}
+
+/*portada*/
+.portada{
+    color: #fff;
+    padding-top: 3.5%;
+    font-size: 1.25rem;
+}
+
+/* imagen de la portada */
 .img-avatar{
     border-radius: 1.5rem;
     padding: 0.25rem;
@@ -57,22 +96,10 @@ body::-webkit-scrollbar-thumb:hover{
     height: auto;
 }
 
-.font-blanco{
-    color: rgb(255, 255, 255);
-}
-
-#font-blanco{
-    color: rgb(255, 255, 255);
-}
-
-.color-blue{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-}
-
-.color-blanco{
+.about-me{
+    background-color: #1f1f38;
     color: #fff;
-    padding-top: 3%;
+    font-size: 1.25rem;
 }
 
 .btn-primary:hover{
