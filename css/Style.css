@@ -102,7 +102,13 @@ a.nav-blanco:hover{
     color: #fff;
     font-size: 1.25rem;
 }
-
+.cuadrito{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 41% 59% 15% 85% / 54% 32% 68% 46% ;
+    width: 80%;
+    height: 300px;
+}
 /*cuentar el div col-6 dek about me*/
 .centrado{
     margin-left: auto;
