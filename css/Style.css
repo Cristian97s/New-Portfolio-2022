@@ -105,9 +105,16 @@ a.nav-blanco:hover{
 .cuadrito{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    border-radius: 41% 59% 15% 85% / 54% 32% 68% 46% ;
-    width: 80%;
-    height: 300px;
+    border-radius: 31% 69% 51% 49% / 60% 69% 31% 40%;
+    width: 400px;
+    height: 360px;
+    text-align: center;
+}
+
+.cuadrito img {
+    text-align: center;
+    width: 350px;
+    height: 350px;
 }
 /*cuentar el div col-6 dek about me*/
 .centrado{
