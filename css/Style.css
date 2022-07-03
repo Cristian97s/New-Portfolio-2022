@@ -133,15 +133,76 @@ a.nav-blanco:hover{
     border-color: transparent;
 }
 /*TARJETAS DE EXPERIENCIA*/
+.expe-oscuro{
+    background: #000;
+}
 
 .text-experience{
     text-align: center;
+    color: #FFF;
 }
 
 .expe-cards{
     padding-top: 1rem;
 }
 
+.circulo{
+    border-radius: 50%;
+    /* border: 0.5px solid #FFF; */
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.circulo i{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.circulo h5{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.color-front{
+    background-color: #E94949;
+    color: #FFF;
+    line-height: normal;
+}
+
+.color-back{
+    background-color: #1D86C7;
+    color: #FFF;
+    line-height: normal;
+}
+
+.color-base{
+    background-color: #823DA7;
+    color: #FFF;
+    line-height: normal;
+}
+
+.color-Design{
+    background-color: #FE802C;
+    color: #FFF;
+    line-height: normal;
+}
+
+.color-des{
+    background-color: #A5A5A5;
+    color: #FFF;
+    line-height: normal;
+}
+
+.color-Ml{
+    background-color: #75D90F;
+    color: #FFF;
+}
+
+.experience__content ol{
+    color: #FFF;
+}
 /* .experience__content{
     border: 1px solid #4db5ff;
     border-radius: 2rem;
