@@ -101,20 +101,21 @@ a.nav-blanco:hover{
     background-color: #1f1f38;
     color: #fff;
     font-size: 1.25rem;
+    padding-bottom: 50px;
 }
 .cuadrito{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     border-radius: 31% 69% 51% 49% / 60% 69% 31% 40%;
-    width: 400px;
-    height: 360px;
+    /* width: 25rem; */
+    height: 22.5rem;
     text-align: center;
 }
 
 .cuadrito img {
     text-align: center;
-    width: 350px;
-    height: 350px;
+    width: 21.875rem;
+    height: 21.875rem;
 }
 /*cuentar el div col-6 dek about me*/
 .centrado{
@@ -133,12 +134,19 @@ a.nav-blanco:hover{
     border-color: transparent;
 }
 /*TARJETAS DE EXPERIENCIA*/
+.color-negro{
+    background: #000;
+}
 .expe-oscuro{
     background: #000;
+    padding-bottom: 50px;
+    /* background-repeat:no-repeat;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    position: relative; */
 }
 
 .text-experience{
-    text-align: center;
     color: #FFF;
 }
 
@@ -257,6 +265,7 @@ a.nav-blanco:hover{
 /*PORTFOLIO*/
 .container-portfolio{
     background-color: #1f1f38;
+    /* padding-bottom: 50px; */
 }
 
 .portfolio-item{
@@ -293,4 +302,122 @@ a.nav-blanco:hover{
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+/* Contact */
+.Contact{
+    padding: 100px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+hr{
+    height: 3px !important;
+    width: 200px;
+    background: #18C0D1 !important;
+    position: relative;
+    border: 0;
+    margin: 30px 0 0 0; 
+}
+.Contact form{
+    padding: 30px 0;
+}
+.iconos-fa p i{
+    color: #18C0D1;
+    margin-right: 20px;
+}
+label{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+}
+.Contact .form-control{
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.Contact .form-control:focus{
+    border-color: inherit;
+    outline: 0;
+    -webkit-box-shadow: transparent;
+    box-shadow: transparent;
+}
+.Contact .btn{
+    background: transparent;
+    border: 1px solid #18C0D1;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: #18C0D1;
+    font-size: 16px;
+}
+.Contact .btn:hover, .Contact .btn:focus{
+    background: #18C0D1;
+    color: #fff;
+}
+.text-danger{
+    color: #cc3300;
+    text-align: left;
+}
+.btn:active, .btn.active{
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+a:focus, .btn:focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.focus, .btn.active.focus{
+    outline: none;
+    outline-style: none;
+}
+
+.social ul li{
+    display: inline-block;
+    margin: 0 20px;
+    color: #1e1e1e;
+}
+.social i.fab{
+    font-size: 24px;
+    padding: 4px 5px;
+    color: #18C0D1;
+    transition: all 0.5s;
+}
+.social i.fab:hover{
+    color: #666;
+}
+
+/* Footer */
+.footer{
+    background-color: #222222;
+    color: #777;
+    padding: 15px 0 10px 0;
+}
+.footer p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: #18C0D1;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+
+@media screen and (max-width: 1024px){
+    
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+
+@media screen and (max-width: 600px){
+    
 }
