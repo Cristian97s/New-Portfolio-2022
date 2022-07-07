@@ -235,6 +235,7 @@ a.nav-blanco:hover{
 
 .experience-content ol{
     color: #FFF;
+    padding-left: 0%;
 }
 /* .experience__content{
     border: 1px solid #4db5ff;
@@ -306,9 +307,9 @@ a.nav-blanco:hover{
 
 /* Contact */
 .Contact{
-    padding: 100px 0;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding-bottom: 1rem;
 }
 hr{
     height: 3px !important;
